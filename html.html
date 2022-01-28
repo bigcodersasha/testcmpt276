@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./stylesheet/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="calculator.js" defer></script>
+  <title>Signup</title>
+
+  </head>
+  <body>
+    <p id="heading"> </p>
+    <form action="#" method="post">
+    <fieldset class="white"> 
+      <p id="gradeCalculator">Grade Calculator</p>
+
+      <div class="box ">
+        <p id=activity>Activities</p>
+        <p id=activedesc>Give grades to the numeric activities.</p>
+        <table id="myTable">
+          <tr class ="headerRow">
+          <th><b class ="headerWords">Name</b></th>
+          <th><b class ="headerWords">Short Name</b></th>
+          <th><b class ="headerWords">Weight</b></th>
+          <th><b class ="headerWords">Grade</b></th>
+          <th><b class ="headerWords">Percent</b></th>
+          </tr>
+        </table>
+        <button class="addActivity" type="button" value="ADD ACTIVITY" onclick="addRow()">ADD ACTIVITY</button>
+        <p id="resultant">Results</p>
+        <p id="meanResults"></p>
+      </br>
+      <div id = "right">
+    <button class="weightmean" type="button" value="WEIGHTED" onclick="weightedMean()">WEIGHTED</button>
+    <button class="weightmean" type="button" value="MEAN" onclick="Mean()">MEAN</button>
+    </div>
+  </br>
+      </fieldset>
+    </form>
+    <p id="footing"></p>
+    <footer id="foot"> </footer>
+  </body>
+</html>

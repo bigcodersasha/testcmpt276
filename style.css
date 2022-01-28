@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(166, 24, 45)
+  }
+  
+  .white {
+    background-color: rgb(255,255,255);
+    margin-top:-20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    width: 90.2%;
+    height:80%;
+    border:none;
+  }
+
+  .headerRow {
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color: rgb(221,221,221);
+    border: 1px solid rgb(155, 155, 155) !important;
+  }
+
+  .headerWords {
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color: rgb(221,221,221);
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:25px;
+    margin-bottom:25px;
+  }
+
+  .rowWords {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(233,239,231);
+    margin: 50px;
+  }
+
+
+#right {
+  margin-left:80%;
+}
+
+#resultant {
+  color: rgb(181, 18, 25);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.weightmean {
+  padding:10px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(181, 18, 25);
+  color: white;
+  border:none;
+  border-radius:3px;
+  
+}
+
+.addActivity {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(181, 18, 25);
+  padding:10px;
+  color: white;
+  border:none;
+  border-radius:3px;
+}
+
+
+  #gradeCalculator{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+    margin-top:50px;
+    margin-bottom:auto;
+  }
+  
+  .box{
+    padding: 10px;
+    border-width:25px;
+    border-color:rgb(0,0,0);
+    background-color:rgb(233, 239, 241);
+    margin-right:200px;
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+
+  #activity{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(181, 18, 25);
+    font-weight: bold;
+  }
+
+  #activedesc{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+  }
+
+  #heading{
+    margin-top:-10px;
+    width:92%;
+    height:30px;
+    background-color: rgb(61, 57, 53);
+    margin-left:auto;;
+    margin-right:auto;
+  }
+
+  #footing {
+    width:92%;
+    height:30px;
+    background-color: rgb(61, 57, 53);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:-20px;
+  }
+  
